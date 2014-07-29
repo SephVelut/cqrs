@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+    verification_suite:
+        namespace: Cqrs
+        src_path: ./
+        spec_path: ./tests
+

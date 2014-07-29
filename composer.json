@@ -1,0 +1,23 @@
+{
+    "name": "seph/cqrs",
+    "authors": [
+        {
+            "name": "seph",
+            "email": "sephvelut@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require-dev": {
+        "phpspec/phpspec": "2.*"
+    },
+	"autoload": {
+		"psr-4": {
+			"Cqrs\\": "Cqrs"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			["tests/"]
+		]
+	}
+}
